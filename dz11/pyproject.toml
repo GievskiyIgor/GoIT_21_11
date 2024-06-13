@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "dz11"
+version = "0.1.0"
+description = ""
+authors = ["GievskiyIgor <121798393+GievskiyIgor@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+alembic = "^1.13.1"
+sqlalchemy = "^2.0.30"
+pydantic = "^2.7.4"
+fastapi = "^0.111.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
